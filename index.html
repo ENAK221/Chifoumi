@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jeu Pierre-Papier-Ciseaux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Pierre, Papier, Ciseaux</h1>
+<div class="match-result">
+    <div class="player-choice">
+        <img src="" alt="Votre choix">
+    </div>
+    <div>
+        <img src="img/vs.png" alt="Versus">
+    </div>
+    <div class="computer-choice">
+        <img src="" alt="Choix de l'ordinateur">
+    </div>
+</div>
+<div class="choices">
+    <button class="btn-rock">
+        <img src="img/rock.jpg" alt="Pierre">
+    </button>
+    <button class="btn-paper">
+        <img src="img/paper.jpg" alt="Papier">
+    </button>
+    <button class="btn-scissors">
+        <img src="img/scissors.jpg" alt="Ciseaux">
+    </button>
+</div>
+<div class="scores">
+    <p id="player-score">Joueur: 0</p>
+    <p id="computer-score">Ordinateur: 0</p>
+</div>
+<button class="reset-btn">Réinitialiser</button>
+<script src="script.js"></script>
+</body>
+</html>
